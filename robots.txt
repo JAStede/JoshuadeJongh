@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Demo: zet indexering pas aan na keuze van definitief domein en livecontrole.
