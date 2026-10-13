@@ -18,3 +18,17 @@ Open `index.html` lokaal, of activeer GitHub Pages via Settings → Pages → De
 
 ## Pakket
 3 commerciële pagina's: `index.html`, `diensten.html`, `contact.html`. Aanvullend `privacy.html` en `404.html`. Eén assets-map met CSS, JS en beelden. Geen CMS, dashboard of automatisch formulier.
+
+
+## Huisstijlupdate
+Het aangeleverde bedrijfslogo is opgenomen als assets/logo-de-jongh.png en assets/logo-de-jongh-wit.png (geschikt voor de donkere header). Oranje accentkleur is afgestemd op het logo. De foto’s zijn voorlopig gegenereerde illustratieve sfeerbeelden; gebruik ze niet als bewijs van afgeronde klantprojecten.
+
+
+## Logo-update
+De originele PDF van De Jongh is gebruikt om twee transparante PNG's te maken:
+- `assets/logo-de-jongh-wit.png` voor donkere achtergronden (witte letters, oranje embleem).
+- `assets/logo-de-jongh.png` voor lichte achtergronden (originele donkere letters, oranje embleem).
+De rest van de site en alle sfeerbeelden zijn behouden.
+
+## Controle bij GitHub Pages
+Upload de **inhoud** van deze ZIP in de root van de repository `JoshuadeJongh` (niet de ZIP zelf en niet een extra bovenliggende map). Wacht tot de GitHub Pages-deploy is afgerond. Controleer daarna de drie pagina's op mobiel, tablet en desktop. Het contactformulier gebruikt een mailto-link en verzendt niet automatisch. De demo heeft bewust `noindex` ingesteld.
