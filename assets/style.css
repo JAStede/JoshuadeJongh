@@ -31,3 +31,19 @@
 .site-header .menu-button{border-color:#b9afa3}
 .site-header .menu-button span{background:#171918}
 @media(max-width:780px){.site-header .mobile-menu:not([hidden]){background:#eee9e2;border-top:1px solid #d9d1c7}.site-header .mobile-menu a{color:#171918;border-bottom:1px solid #d9d1c7}.site-header .mobile-menu a:hover,.site-header .mobile-menu a[aria-current=page]{color:#ba5515}}
+
+/* Definitieve rustige navigatie: geen filters of donkere overlays over het zwarte logo. */
+.site-header{background:#f7f4ef!important;color:#20201f!important;border-bottom:1px solid #e2dcd4!important;box-shadow:0 2px 14px rgba(20,18,15,.07)!important}
+.site-header .header-row{min-height:102px;gap:24px}
+.site-header .brand{padding:0!important;background:none!important;flex:0 0 auto}
+.site-header .brand-logo{width:clamp(205px,19vw,258px);max-height:79px;height:auto;object-fit:contain;filter:none!important;opacity:1!important}
+.site-header .main-nav{gap:28px}
+.site-header .main-nav a{font-size:14px;font-weight:600;color:#292725!important;opacity:1!important;text-shadow:none!important}
+.site-header .main-nav a:hover,.site-header .main-nav a[aria-current=page]{color:#cc621a!important}
+.site-header .phone{color:#282725!important;border-color:#c9c1b6!important;background:transparent!important}
+.site-header .header-offer{color:#fff!important;background:#f47b20!important}
+.site-header .menu-button{border-color:#b9afa3!important}
+.site-header .menu-button span{background:#222!important}
+@media(max-width:1050px){.site-header .header-row{gap:15px}.site-header .brand-logo{width:205px}.site-header .main-nav{gap:16px}}
+@media(max-width:780px){.site-header .header-row{min-height:82px}.site-header .brand-logo{width:185px;max-height:65px}.site-header .mobile-menu:not([hidden]){background:#f7f4ef!important}.site-header .mobile-menu a{color:#222!important}}
+@media(max-width:360px){.site-header .brand-logo{width:160px}}
