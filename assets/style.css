@@ -21,3 +21,13 @@
 .footer-layout a:not(.brand):hover{color:#a94d10;}
 .footer-bottom{border-top:1px solid #17191830;color:#4b504c;}
 .footer .footer-logo{background:transparent;}
+
+/* Navigatie: hetzelfde lichte oppervlak als de footer zodat het originele zwarte logo leesbaar is. */
+.site-header{background:#eee9e2;color:#171918;border-bottom:1px solid #d9d1c7;box-shadow:0 2px 14px rgba(0,0,0,.06)}
+.site-header .main-nav a{color:#171918;opacity:1}
+.site-header .main-nav a:hover,.site-header .main-nav a[aria-current=page]{color:#ba5515}
+.site-header .phone{border-color:#bdb4a9;color:#171918}
+.site-header .phone:hover{border-color:#f47b20;color:#a44b12}
+.site-header .menu-button{border-color:#b9afa3}
+.site-header .menu-button span{background:#171918}
+@media(max-width:780px){.site-header .mobile-menu:not([hidden]){background:#eee9e2;border-top:1px solid #d9d1c7}.site-header .mobile-menu a{color:#171918;border-bottom:1px solid #d9d1c7}.site-header .mobile-menu a:hover,.site-header .mobile-menu a[aria-current=page]{color:#ba5515}}
