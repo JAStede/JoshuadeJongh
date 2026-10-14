@@ -47,3 +47,12 @@
 @media(max-width:1050px){.site-header .header-row{gap:15px}.site-header .brand-logo{width:205px}.site-header .main-nav{gap:16px}}
 @media(max-width:780px){.site-header .header-row{min-height:82px}.site-header .brand-logo{width:185px;max-height:65px}.site-header .mobile-menu:not([hidden]){background:#f7f4ef!important}.site-header .mobile-menu a{color:#222!important}}
 @media(max-width:360px){.site-header .brand-logo{width:160px}}
+
+/* Vaste navigatie op alle pagina's, inclusief mobiel. */
+:root{--site-header-height:102px}
+.site-header{position:fixed!important;top:0;left:0;right:0;width:100%;z-index:1000!important}
+body{padding-top:var(--site-header-height)}
+.hero-inner{padding-top:80px}
+.inner-hero{padding-top:70px}
+html{scroll-padding-top:calc(var(--site-header-height) + 14px)}
+@media(max-width:780px){:root{--site-header-height:82px}.site-header .mobile-menu:not([hidden]){max-height:calc(100dvh - var(--site-header-height));overflow-y:auto;overscroll-behavior:contain}.hero-inner{padding-top:75px}.inner-hero{padding-top:65px}}
